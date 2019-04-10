@@ -77,6 +77,8 @@
   height: 50px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
+  transition: height .4s cubic-bezier(1, 0, 0, 1);
+  overflow: hidden;
 }
 .article h2 {
   font-size: 28px;
@@ -102,8 +104,13 @@
   transform: translate(-50%);
   background-color: white;
 }
+.article .hide-btn {
+  display: none;
+}
 .article-open {
   height: 400px;
+  transition: height .4s cubic-bezier(1, 0, 0, 1);
+  overflow: hidden;
 }
 html,
 body {
